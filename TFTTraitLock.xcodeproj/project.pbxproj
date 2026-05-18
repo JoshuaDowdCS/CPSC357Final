@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A00001 /* TFTTraitLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00011 /* TFTTraitLockApp.swift */; };
+		B3A00002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00012 /* ContentView.swift */; };
+		B3A00003 /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00013 /* Champion.swift */; };
+		B3A00004 /* GuessFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00014 /* GuessFeedback.swift */; };
+		B3A00005 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00015 /* GameRecord.swift */; };
+		B3A00006 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00016 /* GameController.swift */; };
+		B3A00026 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00027 /* NotificationService.swift */; };
+		B3A00008 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00018 /* PlayView.swift */; };
+		B3A00009 /* GuessBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00019 /* GuessBoardView.swift */; };
+		B3A0000A /* ChampionPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0001A /* ChampionPickerView.swift */; };
+		B3A0000B /* CompendiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0001B /* CompendiumView.swift */; };
+		B3A0000C /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0001C /* StatsView.swift */; };
+		B3A0000D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0001D /* HistoryView.swift */; };
+		B3A0000E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0001E /* SettingsView.swift */; };
+		B3A00010 /* PresentationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A00020 /* PresentationCardView.swift */; };
+		B3A00021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A00022 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3A00011 /* TFTTraitLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFTTraitLockApp.swift; sourceTree = "<group>"; };
+		B3A00012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3A00013 /* Champion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
+		B3A00014 /* GuessFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFeedback.swift; sourceTree = "<group>"; };
+		B3A00015 /* GameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecord.swift; sourceTree = "<group>"; };
+		B3A00016 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		B3A00027 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B3A00018 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		B3A00019 /* GuessBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessBoardView.swift; sourceTree = "<group>"; };
+		B3A0001A /* ChampionPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionPickerView.swift; sourceTree = "<group>"; };
+		B3A0001B /* CompendiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompendiumView.swift; sourceTree = "<group>"; };
+		B3A0001C /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B3A0001D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B3A0001E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B3A00020 /* PresentationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCardView.swift; sourceTree = "<group>"; };
+		B3A00022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3A00023 /* TFTTraitLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFTTraitLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A00031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A00041 = {
+			isa = PBXGroup;
+			children = (
+				B3A00042 /* TFTTraitLock */,
+				B3A00043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A00042 /* TFTTraitLock */ = {
+			isa = PBXGroup;
+			children = (
+				B3A00011 /* TFTTraitLockApp.swift */,
+				B3A00012 /* ContentView.swift */,
+				B3A00044 /* Models */,
+				B3A00045 /* Controllers */,
+				B3A00046 /* Views */,
+				B3A00022 /* Assets.xcassets */,
+			);
+			path = TFTTraitLock;
+			sourceTree = "<group>";
+		};
+		B3A00043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A00023 /* TFTTraitLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A00044 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3A00013 /* Champion.swift */,
+				B3A00014 /* GuessFeedback.swift */,
+				B3A00015 /* GameRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3A00045 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3A00016 /* GameController.swift */,
+				B3A00027 /* NotificationService.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B3A00046 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3A00018 /* PlayView.swift */,
+				B3A00019 /* GuessBoardView.swift */,
+				B3A0001A /* ChampionPickerView.swift */,
+				B3A0001B /* CompendiumView.swift */,
+				B3A0001C /* StatsView.swift */,
+				B3A0001D /* HistoryView.swift */,
+				B3A0001E /* SettingsView.swift */,
+				B3A00020 /* PresentationCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3A00051 /* TFTTraitLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A00062 /* Build configuration list for PBXNativeTarget "TFTTraitLock" */;
+			buildPhases = (
+				B3A00032 /* Sources */,
+				B3A00031 /* Frameworks */,
+				B3A00033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFTTraitLock;
+			productName = TFTTraitLock;
+			productReference = B3A00023 /* TFTTraitLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A00052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B3A00051 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = B3A00061 /* Build configuration list for PBXProject "TFTTraitLock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3A00041;
+			productRefGroup = B3A00043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A00051 /* TFTTraitLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A00033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A00021 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A00032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A00001 /* TFTTraitLockApp.swift in Sources */,
+				B3A00002 /* ContentView.swift in Sources */,
+				B3A00003 /* Champion.swift in Sources */,
+				B3A00004 /* GuessFeedback.swift in Sources */,
+				B3A00005 /* GameRecord.swift in Sources */,
+				B3A00006 /* GameController.swift in Sources */,
+				B3A00026 /* NotificationService.swift in Sources */,
+				B3A00008 /* PlayView.swift in Sources */,
+				B3A00009 /* GuessBoardView.swift in Sources */,
+				B3A0000A /* ChampionPickerView.swift in Sources */,
+				B3A0000B /* CompendiumView.swift in Sources */,
+				B3A0000C /* StatsView.swift in Sources */,
+				B3A0000D /* HistoryView.swift in Sources */,
+				B3A0000E /* SettingsView.swift in Sources */,
+				B3A00010 /* PresentationCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3A00071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3A00072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B3A00073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cpsc357.TFTTraitLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3A00074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cpsc357.TFTTraitLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A00061 /* Build configuration list for PBXProject "TFTTraitLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A00071 /* Debug */,
+				B3A00072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A00062 /* Build configuration list for PBXNativeTarget "TFTTraitLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A00073 /* Debug */,
+				B3A00074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A00052 /* Project object */;
+}
